@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+}
+
+.box-img{
+    position: relative;
+    opacity: 0.80;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.box-img-one{
+    background-image: url(imagens/igreja-submersa1.jpg);
+    min-height: 800px;
+}
+
+.title{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase
+}
+
+.title .border{ 
+    background-color: #78909c;
+    opacity: 0.85;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 8px 3px rgba(0,0,0,0.50);
+}
+
+.section-one{
+    background-color: #607d8b;
+    color: white;
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.section-one h2{
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.box-img-two{
+    background-image: url(imagens/praca-matriz.JPG);
+    background-position: center;
+    min-height: 400px;
+}
+
+.section-two{
+    background-color: #b0bec5;
+    text-align: center;
+    color: white;
+    padding: 50px 80px;
+}
+
+.section-two h2{
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.box-img-three{
+    background-image: url(imagens/ilha.jpg);
+    min-height: 400px;
+}
+
+.section-three{
+    background-color: #607d8b;
+    text-align: center;
+    color: white;
+    padding: 50px 80px;
+}
+
+.section-three h2{
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.box-img-sobrado{
+    background-image: url(imagens/sobrado.webp);
+    background-position: center;
+    min-height: 800px;
+
+    position: relative;
+}
+
+.box-img-sobrado .box-social-media{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.box-img-sobrado .social-item img{
+    width: 100%;
+    max-width: 40px;
+}
