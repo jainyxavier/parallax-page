@@ -17,7 +17,7 @@ body{
     position: relative;
     opacity: 0.80;
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-attachment: fixed;
 }
 
@@ -127,11 +127,6 @@ body{
     .box-img-one{
         background-position: center;
         padding-top: 200px;
-    }
-
-    .box-img{
-        height: 100vh;
-        min-height: unset;
     }
 
     .section-container{
