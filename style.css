@@ -129,6 +129,11 @@ body{
         padding-top: 200px;
     }
 
+    .box-img{
+        height: 100vh;
+        min-height: unset;
+    }
+
     .section-container{
         padding: 50px 20px;
     }
